@@ -1,0 +1,23 @@
+Python 3.14.0 (v3.14.0:ebf955df7a8, Oct  7 2025, 08:20:14) [Clang 16.0.0 (clang-1600.0.26.6)] on darwin
+Enter "help" below or click "Help" above for more information.
+>>> # Weekly Pay Calculator
+... 
+... print("Welcome to the Weekly Pay Calculator!")
+... 
+... # Get hours worked this week (string)
+... hours_input = input("How many hours did you work this week? ")
+... 
+... # Convert to float (to allow decimals)
+... hours = float(hours_input)
+... 
+... # Get hourly pay rate (string)
+... rate_input = input("What is your hourly pay rate? ")
+... 
+... # Convert to float
+... rate = float(rate_input)
+... 
+... # Arithmetic: calculate total pay
+... total_pay = hours * rate
+... 
+... # Print results
+... print("You earned:", total_pay, "this week.")
